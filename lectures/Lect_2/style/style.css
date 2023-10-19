@@ -1,0 +1,16 @@
+body {
+  background: rgb(192, 199, 201);
+}
+h1 {
+  color: rgb(22, 221, 65);
+}
+h2 {
+  color: rgb(230, 11, 58);
+}
+#first {
+  color: snow;
+}
+.border {
+  border: solid rgb(236, 7, 7);
+  border-width: 1px 2px 3px 4px;
+}
