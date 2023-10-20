@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* :root {
+  --new-variable: cornflowerblue;
+} */
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu_link {
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.menu_link:hover {
+  color: chartreuse;
+  font-size: 32px;
+}
+
+.header_1 {
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.header_2 {
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.app_input_field {
+  width: 200px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+  height: 30px;
+}
+
+.app_btn {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.div_1 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.div_2 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.div_3 {
+  margin: 15px;
+  padding: 15px;
+}
+
+.about_img {
+  width: 25%;
+  height: 25%;
+}

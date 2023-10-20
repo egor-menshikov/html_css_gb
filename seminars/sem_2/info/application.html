@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="..\style\style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <ul>
+      <li><a href="..\index.html" class="menu_link">Главная</a></li>
+      <li><a href="about.html" class="menu_link">Обо мне</a></li>
+      <li><a href="application.html" class="menu_link">Оставить заявку</a></li>
+    </ul>
+    <h1 class="header_1">Оставить заявку</h1>
+    <form action="#">
+      <input
+        class="app_input_field"
+        type="text"
+        placeholder="Введите имя"
+        required
+      /><br />
+      <input
+        class="app_input_field"
+        type="email"
+        placeholder="Введите email"
+        required
+      /><br />
+      <button class="app_btn" type="submit">Отправить</button>
+      <button class="app_btn" type="reset">Сбросить</button>
+    </form>
+    <div>
+      <img src="..\img\earth.jpg" alt="earth" usemap="#earth" />
+      <map name="earth" id="earth">
+        <area
+          shape="circle"
+          coords="112, 112, 30"
+          href="..\index.html"
+          title="Главная"
+        />
+      </map>
+    </div>
+  </body>
+</html>
